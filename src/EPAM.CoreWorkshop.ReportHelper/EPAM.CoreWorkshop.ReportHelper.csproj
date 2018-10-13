@@ -1,7 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp2.1;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>netcoreapp2.1;netstandard2.0;netcoreapp1.1</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
-
+  
+  <PropertyGroup>
+    <PackageId>EPAM.ReportHelper</PackageId>
+    <Version>1.0.0.2</Version>
+    <Description>XRay Report Helper</Description>
+    <Title>Report helper</Title>
+    <Authors>Kravtsov Denis</Authors>
+    <Company>EPAM Systems</Company>
+  </PropertyGroup>
+  
 </Project>
